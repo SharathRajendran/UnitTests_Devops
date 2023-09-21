@@ -87,13 +87,13 @@ public class FirstFeature_Stepdefs {
 	public void User_lauches_the_App() throws InterruptedException{
 		
 		//Driver exe config
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\Desktop\\Tutorials\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sharath\\Desktop\\ChromeDriver\\chromedriver.exe");
 			
 		//Instansiation the WebDriver Instance
 		 driver = new ChromeDriver();
 		
 		//Demo E-commerce APP
-		driver.get("http://ec2-15-207-51-140.ap-south-1.compute.amazonaws.com/");
+		driver.get("file:///C:/Users/Sharath/Desktop/CICDUdemy/Online_Fruits_And_Veggies_DEVOPS/index.html");
 		
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
