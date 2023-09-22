@@ -94,7 +94,7 @@ public class FirstFeature_Stepdefs {
 		
 		//Demo E-commerce APP
 		//driver.get("file:///C:/Users/Sharath/Desktop/CICDUdemy/Online_Fruits_And_Veggies_DEVOPS/index.html");
-		driver.get("ec2-54-253-212-64.ap-southeast-2.compute.amazonaws.com");
+		driver.get("http://ec2-54-253-212-64.ap-southeast-2.compute.amazonaws.com/");
 
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
